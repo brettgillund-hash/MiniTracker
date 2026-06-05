@@ -1,0 +1,38 @@
+{
+  "name": "minitracker",
+  "version": "0.1.0",
+  "private": true,
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "1.18.2",
+    "expo": "~48.0.18",
+    "expo-image-picker": "~14.3.2",
+    "expo-status-bar": "~1.6.0",
+    "expo-font": "~11.4.0",
+    "@expo-google-fonts/inter": "0.4.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-native": "0.72.10",
+    "react-native-web": "0.19.13",
+    "@expo/webpack-config": "18.1.4"
+  },
+  "devDependencies": {
+    "@types/react": "~18.2.14",
+    "@types/react-native": "^0.72.8",
+    "@typescript-eslint/eslint-plugin": "6.21.0",
+    "@typescript-eslint/parser": "6.21.0",
+    "eslint": "^8.0.0",
+    "eslint-config-universe": "^12.0.0",
+    "typescript": "^5.6.0"
+  }
+}
